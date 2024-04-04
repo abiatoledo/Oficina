@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #52352c; 
+    color: #2c2c2c;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: url('https://i.pinimg.com/originals/69/d2/23/69d22321a544f1bcb9c00de1408b4ecd.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    color: #fff; /* título cabeçalho */
+    text-align: center;
+    font-family: unset;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+nav ul {
+    background-color: #fadadc; 
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+    list-style: none;
+    padding: 6px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #f2efdd;
+}
+
+h2 { /* título seção de conteúdo */
+    color: #f5eced; 
+    text-align: center;
+}
+
+textarea { /* tamanho caixa de texto */
+    width: 80%; 
+}
+
+section {
+    padding: 20px;
+    margin: 20px;  
+}
+
+.conteudo {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+.conteudo p {
+    color: #3f3e3b; 
+}
+
+/* cor dos links */
+a {
+    color: #874f3d; 
+}
+a:hover {
+    color: #5d82a1; 
+}
+
+/* listagem */
+ul {
+    color: #3f3e3b; 
+}
+
+footer {
+    background-color: #fadadc;
+    color: #3f3e3b;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ??? cor ao link no rodapé */
+footer a {
+    color: #fff;
+}
+
+img {
+    width: auto; 
+    height: 280px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+video {
+    border: 2px solid #000000;   
+}
+
+iframe {
+    width: 560px; 
+    height: 315px; 
+    margin: 0 auto; /* centralizar vídeo horizontalmente */
+    display: block; /* margem automática */
+}
